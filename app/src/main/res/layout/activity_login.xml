@@ -11,14 +11,25 @@
     <EditText
         android:layout_width="250dp"
         android:id="@+id/EmailEditText"
+        android:inputType="textEmailAddress"
         android:layout_height="wrap_content"
         android:layout_marginTop="150dp"
         android:gravity="center_horizontal"
         android:hint="Enter your @ " />
+    <EditText
+        android:layout_width="250dp"
+        android:id="@+id/NameEditText"
+        android:inputType="textEmailAddress"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:hint="Enter your Name " />
+
 
     <EditText
         android:layout_width="250dp"
         android:id="@+id/passEditText"
+        android:inputType="numberPassword"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:gravity="center_horizontal"
@@ -35,6 +46,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
+        android:onClick="LOGIN"
         android:text="Login" />
 
     <Button
@@ -42,6 +54,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
+        android:onClick="SIGN"
         android:text="Sign" />
     </LinearLayout>
 </LinearLayout>
